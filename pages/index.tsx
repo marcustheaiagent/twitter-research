@@ -160,7 +160,7 @@ export default function TwitterResearch() {
             <TrendingUp size={28} /> Top Performing Tweets
           </h2>
 
-          <div style={{ space: '1.5rem' }}>
+          <div>
             {data.top_tweets.slice(0, 8).map((tweet) => (
               <div key={tweet.id} style={{ background: '#0f172a', border: '1px solid #475569', borderRadius: '0.5rem', padding: '1.5rem', marginBottom: '1rem' }}>
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'start', marginBottom: '1rem' }}>
